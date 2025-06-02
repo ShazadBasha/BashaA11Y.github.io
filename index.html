@@ -1,56 +1,404 @@
-
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Basha | Accessibility Consultant</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2rem; background-color: #f4f4f4; color: #333; }
-    header { text-align: center; margin-bottom: 2rem; }
-    section { margin-bottom: 2rem; padding: 1rem; background: white; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
-    h1, h2 { color: #004080; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Basha – Accessibility Consultant</h1>
-    <p>Ensuring inclusive and WCAG-compliant digital experiences.</p>
-    <p><a href="mailto:basha@email.com">basha@email.com</a> | <a href="https://linkedin.com/in/basha">LinkedIn</a></p>
-  </header>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Accessibility Testing: Axe, NVDA, Lighthouse, WAVE</li>
-      <li>Standards: WCAG 2.1 / 2.2, ARIA, PDF Accessibility</li>
-      <li>Tech: HTML5, CSS, JavaScript basics</li>
-      <li>Client Work: RFPs, Reviews, Walkthroughs</li>
-    </ul>
-  </section>
+  </head>
 
-  <section>
-    <h2>Projects</h2>
-    <h3>Banking Dashboard Accessibility</h3>
-    <p>Improved accessibility of charts using ARIA and NVDA testing. Reduced defects by 80%.</p>
-  </section>
+  <body>
+    
+    <div class="home-page-template">
+      <nav class="primary-navbar" aria-label="primary">
+        <div class="logo">
+          <h2 class="mohammed-shazad">Mohammed Shazad Basha</h2>
+          <p class="accessibility">
+            Accessibility Consultant &amp; Inclusive Design Advocate
+          </p>
+        </div>
+        <ul class="top-nav navigation-menuu">
+          <li>
+            <a href="#about"  rel="noopener noreferrer"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#Accessibility-Services"  rel="noopener noreferrer"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#case-studies" rel="noopener noreferrer"
+              >Case Studies</a
+            >
+          </li>
+          <li>
+            <a href="#Contact" rel="noopener noreferrer"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main class="body-wrapper">
+        <div class="body">
+          <article class="section-1" >
+            <div class="hero-section-2">
+              <div class="heading_p">
+                <div class="heading-2">
+                  <h1 class="making-the-digital">
+                    Making the Digital <br />World More Inclusive
+                  </h1>
+                </div>
+                <div class="top-sepearator">
+                  <svg
+                    width="100"
+                    height="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="100" height="10" fill="#1470bd" />
+                  </svg>
+                </div>
+                <p class="text-wrapper-14" id="about">
+                  With over 10 years of experience in accessibility consulting,
+                  I help organizations build accessible, WCAG-compliant digital
+                  products — ensuring everyone, regardless of ability, has equal
+                  access.
+                </p>
+              </div>
+              <div class="image-box-wrapper" style="/* max-width: 50%; */">
+                <img class="image-box" src="img/portfolio.jpg" alt="null" />
+              </div>
+            </div>
+            <button class="section__button">Explore My Work</button>
+          </article>
+          <article class="section">
+            <h2 class="section__title" id="Leadership">Leadership in Accessibility</h2>
+            <div class="section__content">
+              <div class="section__image">
+                <img
+                  class="image"
+                  src="img/1 (6).jpg"
+                  alt="Leadership in Accessibility"
+                />
+              </div>
+              <div class="section__text">
+                <h3 >Championing Digital Inclusion</h3>
+                <p>
+                  Championing digital inclusion by leading initiatives that embed accessibility into the core of design and development. I drive teams to create universally usable products, fostering a culture where accessibility is not an afterthought, but a fundamental principle. My focus is on innovating and advocating for solutions that empower all users.
+                </p>
+                <a href="#" class="section__button">Read More</a>
+              </div>
+            </div>
+          </article>
 
-  <section>
-    <h2>Certifications</h2>
-    <ul>
-      <li>AEM Content Authoring – 94%</li>
-      <li>WCAG 2.2 Testing</li>
-      <li>GitHub Copilot – Zero to Hero</li>
-    </ul>
-  </section>
+          <article class="section" id="Accessibility-Services">
+            <h2 class="section__title">Accessibility Services</h2>
+            <div class="section__content">
+              <div class="section__text">
+                <h3>Empowering Inclusive Experiences</h3>
+                <p>
+                  Providing comprehensive accessibility services to ensure your digital products are usable by everyone. From audits and user testing to strategic guidance and training, I help organizations embed accessibility best practices, meet compliance standards, and create truly inclusive experiences for all users.
+                </p>
+                <a href="#" class="section__button">View More</a>
+              </div>
+              <div class="section__image">
+                <img
+                  class="image"
+                  src="img/1 (2).jpg"
+                  alt="Internal Process Optimizer"
+                />
+              </div>
+            </div>
+          </article>
+          <section class="cards-container" id="case-studies">
+            <h2>Case Studies & Impact Stories</h2>
+            <div class="card-grid">
+              <!-- Card Item -->
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/leadership.png" alt="Dashboards" />
+                </div>
+                <div class="card-content">
+                  <span class="tag">Delivery</span>
+                  <!-- <small>LOREM IPSUM LOREM IPSUM</small> -->
+                  <h3>High-Quality Testing Delivery</h3>
+                  <p>
+                    Delivered zero-excursion accessibility testing across four
+                    business lines with consistent stakeholder appreciation.
+                  </p>
+                  <a href="#" class="read-btn">Read the Post</a>
+                </div>
+              </div>              
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/contentAuthoring.jpg" alt="Card Image 1" />
+                </div>
+                <div class="card-content">
+                  <span class="tag">AEM</span>
+                  <!-- <small>LOREM IPSUM LOREM IPSUM</small> -->
+                  <h3>Accessible Content <br />Authoring</h3>
+                  <p>
+                    Completed AEM Content Authoring training with 94% score —
+                    enabling accessible CMS usage
+                  </p>
+                  <a href="#" class="read-btn">Read the Post</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/1.jpg" alt="Card Image 1" />
+                </div>
+                <div class="card-content">
+                  <span class="tag">Strategy</span>
+                  <!-- <small>LOREM IPSUM LOREM IPSUM</small> -->
+                  <h3>Propsals Accessibility Strategy</h3>
+                  <p>
+                    Played a crucial role in shaping accessibility requirements
+                    for a 6-month client RFP, involving cross-functional
+                    coordination.
+                  </p>
+                  <a href="#" class="read-btn">Read the Post</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/playboook.png" alt="Card Image 1" />
+                </div>
+                <div class="card-content">
+                  <span class="tag">Playbook</span>
+                  <!-- <small>LOREM IPSUM LOREM IPSUM</small> -->
+                  <h3>Accessibility Playbook</h3>
+                  <p>
+                    Authored an internal prioritization playbook helping design
+                    teams incorporate WCAG 2.2 at the discovery phase.
+                  </p>
+                  <a href="#" class="read-btn">Read the Post</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/1 (4).jpg" alt="Card Image 1" />
+                </div>
+                <div class="card-content">
+                  <span class="tag">HQ</span>
+                  <!-- <small>LOREM IPSUM LOREM IPSUM</small> -->
+                  <h3>High-Quality Testing Delivery</h3>
+                  <p>
+                    Delivered zero-excursion accessibility testing across four
+                    business lines with consistent stakeholder appreciation.
+                  </p>
+                  <a href="#" class="read-btn">Read the Post</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/dashoboards.png" alt="Card Image 1" />
+                </div>
+                <div class="card-content">
+                  <span class="tag">Dashboard</span>
+                  <!-- <small>LOREM IPSUM LOREM IPSUM</small> -->
+                  <h3>Making Dashboards Accessible</h3>
+                  <p>
+                    Transformed a complex banking dashboard with charts,
+                    filters, and dynamic elements into a screen reader–friendly
+                    experience.
+                  </p>
+                  <a href="#" class="read-btn">Read the Post</a>
+                </div>
+              </div>
+              <!-- Add four more in the same way --><!-- Repeat for 5 more cards -->
+            </div>
+          </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Want to collaborate or hire me?</p>
-    <p>Email: <a href="mailto:basha@email.com">basha@email.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/basha">linkedin.com/in/basha</a></p>
-  </section>
-</body>
+         
+          <!-- <article class="section-2">
+            <img class="farowrd-icon" src="img/farowrd-icon.png" alt="" />
+            <p class="p">
+              From startups to enterprise platforms, I’ve helped clients create
+              digital experiences that are not only functional but inclusive.
+              Because access should never be optional.
+            </p>
+            <p class="accessibility-isn-t">
+              Accessibility Isn’t An Add-on — It’s A Responsibility.
+            </p>
+            <img class="backword-icon" src="img/backword-icon.png" alt="null" />
+          </article> -->
+          <!-- <article class="section">
+            <div class="overlap">
+              <button class="button" class="section__button">
+                <div class="establihed">
+                  <div class="overlap-group">
+                    <div class="text-wrapper-3" >Subscribe</div>
+                  </div>
+                </div>
+              </button>
+              <button class="it-is-a-long-wrapper" class="section__button">
+                <div class="it-is-a-long">
+                  <div class="div-wrapper">
+                    <div class="text-wrapper-4" >Email Address</div>
+                  </div>
+                </div>
+              </button>
+              <p class="stay-in-the-loop-on">
+                <span class="span"
+                  >Stay in the Loop on Digital Inclusion<br
+                /></span>
+                <span class="text-wrapper-5"
+                  >Subscribe to updates on accessibility trends, tools, and
+                  techniques I use to empower teams.</span
+                >
+              </p>
+            </div>
+          </article> -->
+<article class="section-3" class="section">
+            <div class="subscribe-text p-8 rounded-lg w-full text-center">
+        <h2 class="text-3xl font-bold text-white mb-8">
+            To know more about the latest trends in accessibility, subscribe to my newsletter!
+        </h2>
+
+        <form action="#" method="POST" class="w-full max-w-md mx-auto">
+            <div class="flex items-end space-x-3">
+                <div class="relative flex-grow">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder=" " class="floating-label-input block w-full px-4 py-3 text-gray-900 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500 sm:text-sm transition-all duration-200 ease-in-out peer"
+                    />
+                    <label
+                        for="email"
+                        class="floating-label absolute left-4 top-3 text-gray-500 bg-white px-1 transition-all duration-200 ease-in-out pointer-events-none peer-focus:-top-2 peer-focus:text-xs peer-focus:text-pink-600 peer-[:not(:placeholder-shown)]:-top-2 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:text-pink-600"
+                    >
+                        Email Address
+                    </label>
+                </div>
+
+                <button
+                    type="submit"
+                    class="section__button_light px-6 py-3 bg-white text-pink-700 font-semibold rounded-md shadow-md hover:bg-pink-50 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 focus:ring-offset-pink-700 transition-colors duration-200 ease-in-out"
+                >
+                    Subscribe
+                </button>
+            </div>
+        </form>
+
+        <div id="message-box" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center p-4 rounded-md z-50 hidden">
+            <div class="bg-white p-6 rounded-lg shadow-xl max-w-sm w-full">
+                <h3 id="message-title" class="text-lg font-medium text-gray-900 mb-2">Message</h3>
+                <p id="message-text" class="text-sm text-gray-600 mb-4">This is a sample message.</p>
+                <button id="message-ok-button" class="w-full bg-pink-600 text-white py-2 px-4 rounded-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2">
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+          </article>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <nav class="footer-nav" >
+         <ul class="bottom-nav navigation-menuu">
+          <li>
+            <a href="#about"  rel="noopener noreferrer"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#Accessibility-Services"  rel="noopener noreferrer"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#case-studies" rel="noopener noreferrer"
+              >Case Studies</a
+            >
+          </li>
+          <li>
+            <a href="#Contact" rel="noopener noreferrer"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        </nav>
+
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="#"><img src="img/fb.png" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/linkedin.png" alt="Twitter" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/pin.png" alt="Skype" /></a>
+            </li>
+                        <li>
+              <a href="#"><img src="img/inst.png" alt="Medium" /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-contact" id="Contact">
+          <div><span>📍</span> Chennai, India</div>
+          <div><span>📞</span> +91 7401479007</div>
+          <div><span>✉️</span> shazad.basha@gmail.com</div>
+          <div><span>🕒</span> Monday - Friday 10AM - 09 PM</div>
+        </div>
+
+        <p class="footer-copy">
+          Lets Make The Digital World Accessible
+        </p>
+      </footer>
+    </div>
+    <script>
+        // JavaScript for form submission and message box (optional, if you need to handle submission via JS)
+        const form = document.querySelector('form');
+        const messageBox = document.getElementById('message-box');
+        const messageTitle = document.getElementById('message-title');
+        const messageText = document.getElementById('message-text');
+        const messageOkButton = document.getElementById('message-ok-button');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            const emailInput = document.getElementById('email');
+            // You can add more sophisticated email validation here if needed
+            if (emailInput.value.trim() === '' || !emailInput.checkValidity()) {
+                showMessage('Error', 'Please enter a valid email address.');
+                return;
+            }
+            // Simulate form submission
+            console.log('Form submitted with email:', emailInput.value);
+            showMessage('Success!', 'Thank you for subscribing!');
+            emailInput.value = ''; // Clear the input
+            // To reset the label position, we might need to briefly remove and re-add placeholder or manage a class
+            // For CSS-only, :not(:placeholder-shown) handles this when value is cleared.
+        });
+
+        function showMessage(title, text) {
+            messageTitle.textContent = title;
+            messageText.textContent = text;
+            messageBox.classList.remove('hidden');
+        }
+
+        messageOkButton.addEventListener('click', function() {
+            messageBox.classList.add('hidden');
+        });
+
+        // Optional: Enhanced floating label behavior for cross-browser consistency or complex scenarios
+        // The Tailwind peer-* utilities are generally quite good for this.
+        // document.querySelectorAll('.floating-label-input').forEach(input => {
+        //     input.addEventListener('blur', function() {
+        //         if (this.value !== "") {
+        //             this.nextElementSibling.classList.add('has-value');
+        //         } else {
+        //             this.nextElementSibling.classList.remove('has-value');
+        //         }
+        //     });
+        // });
+    </script>
+  </body>
 </html>
